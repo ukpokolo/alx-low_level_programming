@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MSIN_H
+#ifndef MAIN.H
+#define MaIN .H
 
 /*a list that was given from the task 0 */
 
