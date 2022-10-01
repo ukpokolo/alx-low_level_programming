@@ -1,8 +1,12 @@
-#ifndef FILE_MAIN
-#define FILE_MAIN
+#ifndef MAIN_H
+#define MAIN_H
 
-/*a list that was given from the task 0 */
-
+/*
+ *  * File: main.h
+ *   * Auth: Alagwu David
+ *    * Desc: Header file containing the prototypes of all functions
+ *     *       included in the static library libholberton.a.
+ *      */
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
