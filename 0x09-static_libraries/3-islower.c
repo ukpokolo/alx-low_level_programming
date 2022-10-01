@@ -1,18 +1,13 @@
 #include "main.h"
-
 /**
- * _islower - entry point for detecting lowercase letters
- *@c: character is the parameter to validate
- *Return: 1 if c is lowercase, 0 otherwise
- */
-
-
+*_islower - controls if a character is in lowercase
+*@c: character to be verified
+*Return: return 0 or 1
+*/
 int _islower(int c)
+{
+if (c >= 'a' && c <= 'z')
+return (1);
 
-{
-if (c >= 97 && c <= 122)
-	return (1);
-{
-	return (0);
-}
+return (0);
 }
